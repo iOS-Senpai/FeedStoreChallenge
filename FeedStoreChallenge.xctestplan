@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "680CE4CF-8452-4B94-B477-F1F1FBF2BBFF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:FeedStoreChallenge.xcodeproj",
+          "identifier" : "D94B10352D9FD8AF001191A8",
+          "name" : "FeedStoreChallenge"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FeedStoreChallenge.xcodeproj",
+        "identifier" : "D94B103D2D9FD8AF001191A8",
+        "name" : "FeedStoreChallengeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

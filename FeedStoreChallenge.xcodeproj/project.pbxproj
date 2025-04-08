@@ -41,6 +41,7 @@
 		D94B10532D9FD8EC001191A8 /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		D94B105A2D9FD9CD001191A8 /* LocalFeedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
 		D94B105C2D9FD9DC001191A8 /* FeedStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		D94B105F2DA52C8E001191A8 /* FeedStoreChallenge.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = FeedStoreChallenge.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		D94B102C2D9FD8AF001191A8 = {
 			isa = PBXGroup;
 			children = (
+				D94B105F2DA52C8E001191A8 /* FeedStoreChallenge.xctestplan */,
 				D94B10382D9FD8AF001191A8 /* FeedStoreChallenge */,
 				D94B10422D9FD8AF001191A8 /* FeedStoreChallengeTests */,
 				D94B10372D9FD8AF001191A8 /* Products */,
