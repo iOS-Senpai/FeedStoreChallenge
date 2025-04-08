@@ -10,6 +10,13 @@
 		D94B103F2D9FD8AF001191A8 /* FeedStoreChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94B10362D9FD8AF001191A8 /* FeedStoreChallenge.framework */; };
 		D94B10442D9FD8AF001191A8 /* FeedStoreChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B10432D9FD8AF001191A8 /* FeedStoreChallengeTests.swift */; };
 		D94B10452D9FD8AF001191A8 /* FeedStoreChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = D94B10392D9FD8AF001191A8 /* FeedStoreChallenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94B10552D9FD8EC001191A8 /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B104F2D9FD8EC001191A8 /* FeedStoreSpecs.swift */; };
+		D94B10562D9FD8EC001191A8 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B10502D9FD8EC001191A8 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */; };
+		D94B10572D9FD8EC001191A8 /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B10512D9FD8EC001191A8 /* XCTestCase+FailableInsertFeedStoreSpecs.swift */; };
+		D94B10582D9FD8EC001191A8 /* XCTestCase+FailableRetrievFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B10522D9FD8EC001191A8 /* XCTestCase+FailableRetrievFeedStoreSpecs.swift */; };
+		D94B10592D9FD8EC001191A8 /* XCTestCase+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B10532D9FD8EC001191A8 /* XCTestCase+FeedStoreSpecs.swift */; };
+		D94B105B2D9FD9CD001191A8 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B105A2D9FD9CD001191A8 /* LocalFeedImage.swift */; };
+		D94B105D2D9FD9DC001191A8 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B105C2D9FD9DC001191A8 /* FeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,13 @@
 		D94B10392D9FD8AF001191A8 /* FeedStoreChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedStoreChallenge.h; sourceTree = "<group>"; };
 		D94B103E2D9FD8AF001191A8 /* FeedStoreChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedStoreChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94B10432D9FD8AF001191A8 /* FeedStoreChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreChallengeTests.swift; sourceTree = "<group>"; };
+		D94B104F2D9FD8EC001191A8 /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
+		D94B10502D9FD8EC001191A8 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
+		D94B10512D9FD8EC001191A8 /* XCTestCase+FailableInsertFeedStoreSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableInsertFeedStoreSpecs.swift"; sourceTree = "<group>"; };
+		D94B10522D9FD8EC001191A8 /* XCTestCase+FailableRetrievFeedStoreSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableRetrievFeedStoreSpecs.swift"; sourceTree = "<group>"; };
+		D94B10532D9FD8EC001191A8 /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
+		D94B105A2D9FD9CD001191A8 /* LocalFeedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
+		D94B105C2D9FD9DC001191A8 /* FeedStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,8 @@
 		D94B10382D9FD8AF001191A8 /* FeedStoreChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				D94B105C2D9FD9DC001191A8 /* FeedStore.swift */,
+				D94B105A2D9FD9CD001191A8 /* LocalFeedImage.swift */,
 				D94B10392D9FD8AF001191A8 /* FeedStoreChallenge.h */,
 			);
 			path = FeedStoreChallenge;
@@ -77,9 +93,30 @@
 		D94B10422D9FD8AF001191A8 /* FeedStoreChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				D94B10432D9FD8AF001191A8 /* FeedStoreChallengeTests.swift */,
+				D94B10542D9FD8EC001191A8 /* Feed Store Specs */,
+				D94B105E2D9FD9EA001191A8 /* Tests */,
 			);
 			path = FeedStoreChallengeTests;
+			sourceTree = "<group>";
+		};
+		D94B10542D9FD8EC001191A8 /* Feed Store Specs */ = {
+			isa = PBXGroup;
+			children = (
+				D94B104F2D9FD8EC001191A8 /* FeedStoreSpecs.swift */,
+				D94B10502D9FD8EC001191A8 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */,
+				D94B10512D9FD8EC001191A8 /* XCTestCase+FailableInsertFeedStoreSpecs.swift */,
+				D94B10522D9FD8EC001191A8 /* XCTestCase+FailableRetrievFeedStoreSpecs.swift */,
+				D94B10532D9FD8EC001191A8 /* XCTestCase+FeedStoreSpecs.swift */,
+			);
+			path = "Feed Store Specs";
+			sourceTree = "<group>";
+		};
+		D94B105E2D9FD9EA001191A8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D94B10432D9FD8AF001191A8 /* FeedStoreChallengeTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +181,7 @@
 				TargetAttributes = {
 					D94B10352D9FD8AF001191A8 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					D94B103D2D9FD8AF001191A8 = {
 						CreatedOnToolsVersion = 15.4;
@@ -191,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94B105B2D9FD9CD001191A8 /* LocalFeedImage.swift in Sources */,
+				D94B105D2D9FD9DC001191A8 /* FeedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94B10562D9FD8EC001191A8 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */,
+				D94B10552D9FD8EC001191A8 /* FeedStoreSpecs.swift in Sources */,
+				D94B10572D9FD8EC001191A8 /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
+				D94B10582D9FD8EC001191A8 /* XCTestCase+FailableRetrievFeedStoreSpecs.swift in Sources */,
 				D94B10442D9FD8AF001191A8 /* FeedStoreChallengeTests.swift in Sources */,
+				D94B10592D9FD8EC001191A8 /* XCTestCase+FeedStoreSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -365,6 +411,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -373,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -404,6 +452,7 @@
 		D94B104C2D9FD8AF001191A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -418,6 +467,7 @@
 		D94B104D2D9FD8AF001191A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
