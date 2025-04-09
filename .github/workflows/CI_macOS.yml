@@ -13,6 +13,8 @@
    build-and-test:
      # The type of runner that the job will run on
      runs-on: macos-latest
+     
+     timeout-minutes: 10
  
      # Steps represent a sequence of tasks that will be executed as part of the job
      steps:
@@ -26,4 +28,4 @@
        run: /usr/bin/xcodebuild -version
        
      - name: Build and Test
-       run: xcodebuild clean build test -project FeedStoreChallenge.xcodeproj -scheme "FeedStoreChallenge" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+       run: xcodebuild clean build test -project FeedStoreChallenge.xcodeproj -scheme "FeedStoreChallenge" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO SWIFT_TREAT_WARNINGS_AS_ERRORS=YES
